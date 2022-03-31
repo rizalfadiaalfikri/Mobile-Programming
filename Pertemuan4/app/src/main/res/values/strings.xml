@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Pertemuan3</string>
+    <string-array name="jenis_vaksin">
+        <item>Sinovac</item>
+        <item>Bio Farma</item>
+        <item>AstraZeneca</item>
+        <item>Sinopharm</item>
+        <item>Moderna</item>
+        <item>Pfizer</item>
+        <item>Sputnik V</item>
+        <item>Janssen</item>
+        <item>Convidecia</item>
+    </string-array>
+    <string-array name="jenis_kelamin">
+        <item>Laki - Laki</item>
+        <item>Perempuan</item>
+    </string-array>
+</resources>

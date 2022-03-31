@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Success">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="2">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@color/red"
+                android:gravity="center"
+                android:orientation="vertical"></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:gravity="center"
+                android:orientation="vertical"></LinearLayout>
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="15dp"
+            app:cardPreventCornerOverlap="false"
+            app:cardUseCompatPadding="true"
+            android:layout_centerInParent="true">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="30dp"
+                android:layout_centerInParent="true">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Form Input Sukses"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/red"/>
+                <TextView
+                    android:id="@+id/txt_nik"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="NAMA: RIZAL FADIA AL FIKRI"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="10dp"
+                    android:textSize="17sp"/>
+                <TextView
+                    android:id="@+id/txt_nama"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="NAMA: RIZAL FADIA AL FIKRI"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="5dp"
+                    android:textSize="17sp"/>
+                <TextView
+                    android:id="@+id/txt_jenis_kelamin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="NAMA: RIZAL FADIA AL FIKRI"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="5dp"
+                    android:textSize="17sp"/>
+                <TextView
+                    android:id="@+id/txt_email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="NAMA: RIZAL FADIA AL FIKRI"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="5dp"
+                    android:textSize="17sp"/>
+                <TextView
+                    android:id="@+id/txt_notelpn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="NAMA: RIZAL FADIA AL FIKRI"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="5dp"
+                    android:textSize="17sp"/>
+                <TextView
+                    android:id="@+id/txt_alamat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="NAMA: RIZAL FADIA AL FIKRI"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="5dp"
+                    android:textSize="17sp"/>
+                <TextView
+                    android:id="@+id/txt_jenis_vaksin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="NAMA: RIZAL FADIA AL FIKRI"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="5dp"
+                    android:textSize="17sp"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>
